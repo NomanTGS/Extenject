@@ -346,7 +346,7 @@ namespace Zenject
             }
 
             Assert.That(!_hasResolvedRoots);
-            _hasResolvedRoots = true;
+            //_hasResolvedRoots = true;
         }
 
         void ResolveDependencyRoots()
